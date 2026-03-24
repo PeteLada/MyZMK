@@ -1,0 +1,6 @@
+if SHIELD_RIGHT31
+
+config ZMK_KEYBOARD_NAME
+    default "Right31"
+
+endif
