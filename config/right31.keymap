@@ -8,19 +8,19 @@
         default_layer {
             bindings = <
                 // R0
-                &none   &kp V     &kp K      &kp SEMI   &kp COMMA  &kp DOT    &kp FSLH
+                &none      &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp COLON
 
-                // R1
-                &none   &kp O     &kp A      &kp N      &kp R      &kp LBKT   &kp RBKT
+                // R1  ->  ь   ы   я   э   ф   р
+                &none      &kp M      &kp S      &kp Z      &kp SQT    &kp A      &kp DQT
 
-                // R2
-                &none   &kp D     &kp U      &kp MINUS  &kp EQUAL  &kp SQT    &kp BSLH
+                // R2  ->  и   а   о   е   с   т
+                &none      &kp B      &kp F      &kp J      &kp T      &kp C      &kp EQUAL
 
-                // R3
-                &none   &kp N1    &kp N2     &kp N3     &kp N4     &kp N5     &kp N6
+                // R3  ->  ё   ъ   у   ю   ш   л
+                &none      &kp GRAVE  &kp RBKT   &kp E      &kp DOT    &kp I      &kp QMARK
 
-                // R4
-                &kp SPACE &kp ENTER &kp BSPC &kp TAB    &kp ESC    &kp LSHFT  &kp DEL
+                // R4 (thumb)
+                &kp SPACE  &kp ENTER  &kp BSPC   &kp COMMA    &kp DOT    &kp MINUS  &kp PLUS
             >;
         };
     };
