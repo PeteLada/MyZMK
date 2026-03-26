@@ -10,8 +10,8 @@
                 // R0
                 &none      &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp COLON
 
-                // R1  ->  ь   ы   я   э   ф   р
-                &none      &kp M      &kp S      &kp Z      &kp SQT    &kp A      &kp DQT
+                // R1  ->  ъ(] RBKT)ь(м)   ы   я   э   ф   р
+                &none      &kp RBKT      &kp S      &kp Z      &kp SQT    &kp A      &kp DQT
 
                 // R2  ->  и   а   о   е   с   т
                 &none      &kp B      &kp F      &kp J      &kp T      &kp C      &kp EQUAL
