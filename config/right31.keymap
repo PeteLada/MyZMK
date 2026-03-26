@@ -16,8 +16,8 @@
                 // R2  ->  и   а   о   е   с   т
                 &none      &kp B      &kp F      &kp J      &kp T      &kp C      &kp EQUAL
 
-                // R3  ->  ё   ъ   у   ю   ш   л
-                &none      &kp GRAVE  &kp RBKT   &kp E      &kp DOT    &kp I      &kp QMARK
+                // R3  ->  ё   ь   у   ю   ш   л
+                &none      &kp GRAVE  &kp M   &kp E      &kp DOT    &kp I      &kp QMARK
 
                 // R4 (thumb)
                 &kp SPACE  &kp ENTER  &kp BSPC   &kp COMMA    &kp DOT    &kp MINUS  &kp PLUS
