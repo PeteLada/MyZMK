@@ -1,2 +1,0 @@
-config SHIELD_LEFT31
-    def_bool $(shields_list_contains,left31)
