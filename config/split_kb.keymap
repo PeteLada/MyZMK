@@ -1,0 +1,35 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                /* порядок: правая половина -> левая половина */
+
+                /* R0 */
+                &bt BT_CLR_ALL   &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp COLON
+                &kp N1           &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &none
+
+                /* R1 */
+                &none            &kp RBKT    &kp S       &kp Z       &kp SQT     &kp A       &kp DQT
+                &kp O            &kp W       &kp R       &kp K       &kp COMMA   &kp Q       &none
+
+                /* R2 */
+                &none            &kp B       &kp F       &kp J       &kp T       &kp C       &kp EQUAL
+                &kp X            &kp P       &kp D       &kp Y       &kp N       &kp L       &none
+
+                /* R3 */
+                &none            &kp GRAVE   &kp M       &kp E       &kp DOT     &kp I       &kp QMARK
+                &kp SEMI         &kp LBKT    &kp G       &kp H       &kp V       &kp U       &none
+
+                /* R4 (thumb) */
+                &kp SPACE        &kp ENTER   &kp BSPC    &kp COMMA   &kp DOT     &kp MINUS   &kp PLUS
+                &kp CAPSLOCK     &kp SPACE   &kp LC(C)   &kp LC(V)   &kp LA(LSHFT) &kp LSHFT &kp BSPC
+            >;
+        };
+    };
+};
