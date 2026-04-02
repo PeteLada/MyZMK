@@ -9,7 +9,7 @@
         default_layer {
             bindings = <
                 // R0: правая половина -> левая половина &bt BT_CLR_ALL
-                &kp Q            &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp COLON
+                &bt BT_CLR_ALL   &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp COLON
                 &kp N1           &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &none
 
                 // R1
