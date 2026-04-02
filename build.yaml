@@ -4,6 +4,3 @@ include:
 
   - board: promicro_nrf52840
     shield: split_kb_right
-
-  - board: promicro_nrf52840
-    shield: settings_reset
