@@ -1,0 +1,12 @@
+file_format: "1"
+id: split_kb
+name: Split KB
+type: shield
+url: https://github.com/PeteLada/MyZMK
+requires:
+  - pro_micro
+features:
+  - keys
+siblings:
+  - split_kb_left
+  - split_kb_right
