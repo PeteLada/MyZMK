@@ -1,0 +1,19 @@
+if SHIELD_SPLIT_KB_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Split KB"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SPLIT_KB_LEFT || SHIELD_SPLIT_KB_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 1
+
+endif
