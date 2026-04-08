@@ -31,5 +31,21 @@
                 &kp CAPSLOCK     &kp SPACE   &kp LC(C)   &kp LC(V)   &kp LA(LSHFT)  &kp LSHFT   &kp BSPC
             >;
         };
+        russian_layer { 
+            bindings = < 
+                // R0: правая половина -> левая половина 
+                &bt BT_CLR_ALL     &kp RU_N1 &kp RU_N2 &kp RU_N3 &kp RU_N4 &kp RU_N5 &kp RU_COLON 
+                &kp RU_N1          &kp RU_N2 &kp RU_N3 &kp RU_N4 &kp RU_N5 &kp RU_N6 &none 
+                // R1 
+                &none &kp             RU_CYRILLIC_HARD_SIGN     &kp RU_CYRILLIC_YERU   &kp RU_CYRILLIC_YA   &kp RU_CYRILLIC_E   &kp RU_CYRILLIC_EF         &kp RU_DQT 
+                &kp RU_CYRILLIC_SHCHA &kp RU_CYRILLIC_TSE       &kp RU_CYRILLIC_KA     &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_BE  &kp RU_CYRILLIC_SHORT_I    &none 
+                // R2 
+                &none &kp RU_CYRILLIC_I &kp RU_CYRILLIC_A &kp RU_CYRILLIC_O &kp RU_CYRILLIC_IE &kp RU_CYRILLIC_ES &kp RU_EQUAL 
+                &kp RU_CYRILLIC_CHE &kp RU_CYRILLIC_ZE &kp RU_CYRILLIC_VE &kp RU_CYRILLIC_EN &kp RU_CYRILLIC_TE &kp RU_CYRILLIC_DE &none 
+                // R3 
+                &none &kp RU_CYRILLIC_IO &kp RU_CYRILLIC_SOFT_SIGN &kp RU_CYRILLIC_U &kp RU_CYRILLIC_YU &kp RU_CYRILLIC_SHA &kp RU_QMARK &kp RU_CYRILLIC_ZHE &kp RU_CYRILLIC_HA &kp RU_CYRILLIC_PE &kp RU_CYRILLIC_ER &kp RU_CYRILLIC_EM &kp RU_CYRILLIC_GHE &none 
+                // R4 (thumb) 
+                &kp SPACE &kp ENTER &kp BSPC &kp RU_COMMA &kp RU_DOT &kp RU_MINUS &kp RU_PLUS &kp CAPSLOCK &kp SPACE &kp LC(C) &kp LC(V) &kp LA(LSHFT) &kp LSHFT &kp BSPC >; 
+        }; 
     };
 };
